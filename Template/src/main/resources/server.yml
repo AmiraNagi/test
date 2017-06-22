@@ -1,0 +1,16 @@
+# Spring properties
+spring:
+  application:
+     name: service  # Service registers under this name
+
+
+# Map the error path to error template (for Thymeleaf)
+error:
+  path: /error
+
+# HTTP Server
+server:
+  port: 9160   # HTTP (Tomcat) port
+#  port: 2222
+
+

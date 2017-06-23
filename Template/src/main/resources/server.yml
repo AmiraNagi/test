@@ -10,7 +10,7 @@ error:
 
 # HTTP Server
 server:
-  port: 9160   # HTTP (Tomcat) port
+  port: 7001   # HTTP (Tomcat) port
 #  port: 2222
 
 

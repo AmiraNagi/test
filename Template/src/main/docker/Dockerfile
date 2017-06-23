@@ -13,7 +13,7 @@ RUN yum -y install /tmp/jdk-8u131-linux-x64.rpm
 #RUN alternatives --install /usr/bin/java jar /usr/java/latest/bin/java 200000
 #RUN alternatives --install /usr/bin/javaws javaws /usr/java/latest/bin/javaws 200000
 #RUN alternatives --install /usr/bin/javac javac /usr/java/latest/bin/javac 200000
-EXPOSE 9160
+EXPOSE 7001
 VOLUME /tmp
 ADD /maven/Template-0.0.1-SNAPSHOT.jar template.jar
 RUN sh -c 'touch /template.jar'
